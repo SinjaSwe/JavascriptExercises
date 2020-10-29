@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>
+        Javascript Assignments
+    </title>
+</head>
+
+<body onload="startTime()">
+    <header>
+        <h1>Javascript Assignments</h1>
+    </header>
+
+
+    <div id="clockdate">
+        
+        <h3>"Exercise 1 – JavaScript Clock"</h3>
+        <div class="clockdate-wrapper">
+          <div id="clock"></div>
+          <div id="date"></div>
+        </div>
+    </div>
+
+    <div></div>
+
+      <p>          
+        <h3>"Exercise 2 – JavaScript ClocLeap Year Calendar"</h3></p>
+
+        Enter a year: <input type="text" id = "year"/> 
+        
+        <input type="button" id="button" onClick="isLeapYear()"
+                value="Check Leap Year"> 
+        
+        <p id="GFG">
+
+    </p> 
+
+    <p>
+        
+        <h3>"Exercise 3 – 1st of January = Sunday?"</h3>
+        
+        Enter a year: <input type ="text" id = "yearStart"/>
+    
+        <input type="button" id="button" onClick="isASunday()"
+            value="Check Sunday">    
+
+        <p id="sun">
+    </p>
+
+    <p>
+        <h3>"Exercise 4–Guessing game"</h3>
+
+        Enter a number between 1 and 10: <input type ="text" id = "guess"/>
+        
+        <input type="button" id=guess onclick="enterANumber()"
+        value="Check">
+                
+        <p id="message"> Start Guessing....! </p>      
+    
+    </p>
+
+    <p> 
+        <h3>"Exercise 5–Days until Christmas"</h3>
+
+        <p id="daysToChristmas"></p>
+
+    <p>
+        <h3> "Exercise 6–Reverse input" </h3>
+
+        Enter a word or number: <input type ="text" id = "enteredWord"/>
+        
+        <input type="button" id=enteredWord onclick="reverseAWord()"
+        value="Check">
+
+        <p id = "reversedString"> Enter your word or number above.</p>
+
+    </p>
+
+    <p> 
+        <h3>"Exercise 7–Text manipulation"</h3>
+
+        Enter a word: <input type ="text" id = "enteredText"/>
+        
+        <input type="button" id="enteredText" onclick="generateCombos()"
+        value="Check">
+
+        <p id="cominationsAvailable"> Enter a word above!</p>
+
+
+    <p> 
+        <h3>"Exercise 8–Text manipulation 2"</h3>
+
+        Enter a word: <input type ="text" id = "wordToSort"/>
+        
+        <input type="button" id="wordToSort" onclick="generateAlphaOrder()"
+        value="Check">
+    
+        <p id="abcOrder">Enter a word!</p>
+    
+    <p>
+
+    <p>
+        <h3>Exercise 10 – Prime number</h3>
+
+        Enter a number: <input type="number" id ="enteredNumber"/>
+        <input type="button" id="enteredNumber" onclick="checkIfPrime()"
+        value = "Check">
+
+        <p id="prime"> Enter a number </p>  
+
+
+    </p>
+
+    <p>
+        <h3>Exercise 14 – Array</h3>
+
+        <p id="days"> Workdays</p>  
+
+    </p>
+
+    <p>
+
+        <h3>Exercise 15 - Input to array</h3>
+
+        <input type="text" id="text1"></input>
+        <input type="button" id="button1" value="Add" onclick="addToArray();"></input>
+        
+        <input type="button" id="button2" value="Sort Array" onclick="sortArray();"></input>
+        <p id="sortedArray"> Sorted array by size</p> 
+           
+    </p>
+
+    <p>
+        <h3>Exercise 16 – Array 3</h3>
+        <p id="removeDuplicates"> Remove duplicates</p> 
+
+    </p>
+
+
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
